@@ -1,5 +1,6 @@
 import numpy
 n,m,p= [int(i) for i in input().split()]
+#n,m,p= list(int(i) for i in input().split())
 arr1=numpy.array([input().split() for i in range(n)], int)
 arr2=numpy.array([input().split() for i in range(m)], int)
 print(numpy.concatenate((arr1,arr2)))
